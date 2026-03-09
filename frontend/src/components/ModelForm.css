@@ -1,0 +1,63 @@
+.model-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #aaa;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+.dimensions {
+  border: 1px solid rgba(74, 158, 255, 0.2);
+  padding: 12px;
+  border-radius: 4px;
+  background: rgba(74, 158, 255, 0.05);
+}
+
+.dimensions h4 {
+  margin: 0 0 10px 0;
+  color: #4a9eff;
+  font-size: 0.95rem;
+}
+
+.dimensions .form-group {
+  margin-bottom: 8px;
+}
+
+.dimensions .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.generate-btn {
+  margin-top: auto;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.generate-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+textarea {
+  resize: vertical;
+}
